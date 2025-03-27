@@ -1,4 +1,4 @@
-# Visual Studio related
+# Visual Studio related files
 *.suo
 *.user
 *.userosscache
@@ -19,7 +19,7 @@ bld/
 [Oo]bj/
 [Ll]og/
 
-# C++ specific temporary files
+# C++ temporary files
 *.obj
 *.pch
 *.pdb
@@ -33,19 +33,14 @@ bld/
 *.VC.db
 *.VC.VC.opendb
 
-# Code analysis files
+# Code analysis and intermediate files
 *.ncb
 
-# User-specific files for various IDE extensions
-*_i.c
-*_p.c
-*_i.h
-
-# Test Results
+# Test and build log files
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
-# Other temporary or backup files
+# Temporary or backup files
 *~ 
 *.tmp
 *.temp
@@ -53,7 +48,7 @@ bld/
 *.swp
 *.log
 
-# Git and project files
+# Git files
 .gitignore
 .gitattributes
 
