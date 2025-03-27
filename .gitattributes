@@ -1,26 +1,15 @@
-# Auto-detect text files and perform LF normalization
+# Auto-detect text files and normalize line endings
 * text=auto
 
-# Set default behavior for binary files to be unchanged
+# Ensure Python, Markdown, and text files use proper text handling
+*.py text
+*.md text
+*.txt text
+
+# Treat image files as binary
 *.png binary
 *.jpg binary
 *.jpeg binary
 *.gif binary
 
-# Custom diff for C++ files
-*.cpp diff=cpp
-*.h diff=cpp
-*.hpp diff=cpp
-
-# Custom diff for Visual Studio project files (XML)
-*.sln diff=xml
-*.vcxproj diff=xml
-*.vcxproj.filters diff=xml
-
-# Treat PDF files as text for diffs (optional, usually they’re binary)
-*.pdf diff=astextplain
-
-# Ensure proper handling of markdown files
-*.md text
-
-# End of .gitattributes
+# Optionally, add other file types as needed
