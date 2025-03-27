@@ -1,59 +1,55 @@
-# Visual Studio related files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
 
-# Visual Studio 2015+ cache/options directory
-.vs/
+---
 
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
+### .gitignore
 
-# C++ temporary files
-*.obj
-*.pch
-*.pdb
-*.idb
-*.ipdb
-*.cache
+```gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Auto-generated files by Visual Studio
-*.opensdf
-*.sdf
-*.VC.db
-*.VC.VC.opendb
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
 
-# Code analysis and intermediate files
-*.ncb
+# Virtual environment
+venv/
+ENV/
+env/
+*.env
 
-# Test and build log files
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Temporary or backup files
-*~ 
-*.tmp
-*.temp
-*.bak
-*.swp
-*.log
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
 
-# Git files
-.gitignore
-.gitattributes
+# Translations
+*.mo
+*.pot
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE or Editor directories and files
+.vscode/
+.idea/
+*.iml
 
 # OS-specific files
 .DS_Store
 Thumbs.db
-ehthumbs.db
-Desktop.ini
